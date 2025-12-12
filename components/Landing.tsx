@@ -12,7 +12,7 @@ interface LandingProps {
   onSelectType: (type: AttendeeType) => void;
 }
 
-const collageImages = [f1, f2, f3];
+const collageImages = [f1, f3, f2];
 
 // Typewriter Hook with Loop
 const useTypewriter = (text: string, speed = 100, pauseTime = 2000) => {
