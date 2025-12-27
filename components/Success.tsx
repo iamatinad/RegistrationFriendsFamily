@@ -23,7 +23,7 @@ export const Success: React.FC<SuccessProps> = ({ onReset }) => {
 
       <h2 className="text-4xl font-serif font-bold text-white mb-4">You're Registered!</h2>
       <p className="text-gray-400 mb-10 text-lg">
-        Thank you for joining us. Your spot is reserved for <span className="text-brand-yellow font-medium">Friends & Family 2025</span>.
+        Thank you for joining us. Your spot is reserved for <span className="text-brand-yellow font-medium">New Year's Eve Service</span>.
       </p>
 
 

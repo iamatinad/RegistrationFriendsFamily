@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { AttendeeType } from '../types';
 import { Button } from './ui/Button';
-import f1 from "./assets/F1.jpg";
-import f2 from "./assets/F2.jpg";
-import f3 from "./assets/F3.jpg";
+import f1 from "./assets/N1.jpg";
+import f2 from "./assets/N3.jpg";
+import f3 from "./assets/N2.jpg";
 
 
 
@@ -57,7 +57,7 @@ const useTypewriter = (text: string, speed = 100, pauseTime = 2000) => {
 };
 
 export const Landing: React.FC<LandingProps> = ({ onSelectType }) => {
-  const welcomeText = useTypewriter("Welcome to Friends & Family 2025", 80, 2500);
+  const welcomeText = useTypewriter("Welcome to New Year's Eve Service ", 80, 2500);
 
   return (
     <div className="flex flex-col items-center justify-center min-h-[calc(100vh-80px)] w-full relative overflow-hidden px-4">
@@ -113,7 +113,7 @@ export const Landing: React.FC<LandingProps> = ({ onSelectType }) => {
           <span className="text-white block md:inline drop-shadow-2xl">
             {welcomeText}
           </span>
-          <span className="inline-block w-1 h-8 md:h-12 ml-1 bg-brand-yellow animate-cursor align-middle opacity-50 shadow-[0_0_10px_#F4B942]"></span>
+          <span className="inline-block w-1 h-8 md:h-12 ml-1 bg-brand-yellow animate-cursor align-middle opacity-50 shadow-[0_0_10px_#f4cba3]"></span>
         </h1>
         
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-2 w-full">
